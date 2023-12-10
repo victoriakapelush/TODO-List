@@ -44,10 +44,10 @@ input {
 .tasks {
     align-items: center;
     background-color: #1f83f2;
-    margin: 15px 0;
-    padding: 10px;
-    min-height: 45px;
-    width: 25vw;
+    width: 100%;
+    margin: 15px 0 !important;
+    padding-top: 20px;
+    height: 45px;
     cursor: pointer;
     border-radius: 22.5px;
     color: #fff;
@@ -57,7 +57,6 @@ input {
 }
 
 .btnDel {
-    margin-top: 30px;
     width: 30px;
     height: 30px;
     background-color: #ff2c74;
@@ -67,7 +66,11 @@ input {
     inset -3px -3px 5px rgba(0,0,0,0.5); 
 }
 
-
+.divBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 footer {
     position: fixed;
